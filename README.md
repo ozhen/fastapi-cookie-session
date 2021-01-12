@@ -10,8 +10,28 @@ $. _venv/bin/activate
 
 ## Running
 ```
-(_venv)~$uvicorn core:app
+(_venv)$uvicorn core:app
 ```
+
+## Data Files
+- There are three users stored in 'database.txt'
+- There are two users logged in, and their sessions are stored in 'sessions.txt'
+
+
+## Logged In User
+```
+{
+    "username": "jet-setter",
+    "password": "r0u7!nG"
+},
+{
+    "username": "lmb",
+    "password": "null"
+}
+
+```
+
+
 
 ## API References
 ```
